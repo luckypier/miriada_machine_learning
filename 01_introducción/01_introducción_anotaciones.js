@@ -39,8 +39,18 @@
 					-	Pivoting, similar a agregación, se agrega ṕropiedades que consolidan la repetición de instancias
 					-	Ventanas temporales, cuando necesitamos tener los datos de tiempo de una sola instancia, podemos agregarlos como propiedades adicionales. Ejemplo: "Ocurrencias en el año X":10
 			 	- exportación a CSV
-					
-			- el formato de los datos
+				- el formato de los datos
+					una vez cargado el csv lo llamaremos el source, este tiene:
+						- los campos
+						- el tipo de campo
+							- numérico
+							- categórico
+							- fecha/hora
+							- items: posee varias etiquetas (características) separadas por comas. Ejemplo: pan, jamón serrano, tomate
+							- texto: cuando no esta delimitado con etiquetas o estas superan las 1000. Se puede analizar el texto completo, configurar su idioma, hacer uppercase o usar la lematización.
+								valor para tokenize:full terms only
+
+
 		2.2 Ingeniería de atributos antes del modelado
 			- Feature engineering para el aprendizaje
 
