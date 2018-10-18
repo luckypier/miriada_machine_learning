@@ -80,23 +80,3 @@ Deberíamos usar pivoting sobre las filas de cada usuario de la tabla de pruebas
 El campo Fecha de diagnóstico es de tipo fecha/hora y se ha expandido automáticamente en sus componentes. Todos los demás son numéricos excepto el campo Diabetes que es categórico, el campo Medicación previa que es de tipo items y el campo Observaciones que es de tipo texto.
 5. ¿Cuáles de estas afirmaciones son ciertas?
 El Dataset contiene 768 instancias útiles para el Machine Learning, aunque los campos Medicación previa y Observaciones tienen valores ausentes (754 y 755 respectivamente). El campo Fecha de diagnóstico contiene dos errores y los campos derivados de él (Fecha de diagnóstico.year, etc.) estarán ausentes en esos dos casos. El rango de valores del campo Glucosa va del 0 al 199.
-
-Simple present
-	I use the Simple Present for repeated actions.
-
-	He doesn't speak French.
-	Does Nina play computer games?
-	Does Andy do the shopping?
-
-
-
-lay the table
-good marks
-look at
-she tidies up her room
-water the flowers
-
-
-javierquinones.
-Foto del perfil de javierquinones.
-javierquinones.languagecoach@gmai.com
